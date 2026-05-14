@@ -1,0 +1,29 @@
+(input-method jya kbd)
+
+(title "JYA 2")
+
+(map
+ (map
+
+  ((G-u) ?ü)
+  ((G-r) ?ɽ)
+  ((G-o) ?¤)
+  ((G-h) ?ʰ)
+  ((G-j) ?ɟ)
+  ((G-') ?‘)
+  ((G-n) ?ŋ)
+  ((G-,) ?，)
+  ((G-.) ?。)
+  ((G-?) ?？)
+  ((G-!) ?！)
+  ("$" ?¥)
+  ))
+
+(state
+ (init
+  (map)))
+
+;; Local Variables:
+;; coding: utf-8
+;; mode: lisp
+;; End:
